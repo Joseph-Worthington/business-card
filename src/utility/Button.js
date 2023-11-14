@@ -1,5 +1,5 @@
-const Button = ({ children, source }) => (
-    <button className="button"><a href={source}>{children}</a></button>
+const Button = ({ children, source, classes }) => (
+    <button className={`button ${classes}`}  ><a href={source}>{children}</a></button>
 );
 
 export default Button;

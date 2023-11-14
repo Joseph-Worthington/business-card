@@ -23,7 +23,7 @@ var socials = [
 
 const Socials = () => {
     return (
-        <div>
+        <div className="social-links">
             {socials.map((social) => (
                 <a href={social.link} target="_blank" rel="noreferrer">
                     <i className={social.icon}></i>

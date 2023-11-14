@@ -1,0 +1,23 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+
+    img{
+        width: 100%;
+    }
+
+    .profile-header{
+        text-align: center;
+    }
+
+    .profile-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
