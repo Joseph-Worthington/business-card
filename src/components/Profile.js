@@ -9,7 +9,7 @@ const Profile = () => {
                 <h2>Web Developer</h2>
                 <a href="https://www.google.com">https://www.google.com</a>
             </div>
-            <div className='profile-links'>
+            <div className='profile-links container'>
                 <Button source="Email" children="Email" classes="email"  />
                 <Button source="Linkedin" children="Linkedin" classes="linkedin" />
                 <Button source="Github" children="Github" classes="github" />

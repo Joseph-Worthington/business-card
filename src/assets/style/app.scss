@@ -1,13 +1,28 @@
 .app{
-    max-width: 500px;
+    max-width: 317px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
     background-color: #1A1B21;
+    border-radius: 10px;
 
     *{
         color: #DCDCDC;
+
+        h2{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    .container{
+        max-width: 247px;
+        width: 100%;
     }
 }

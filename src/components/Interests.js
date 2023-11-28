@@ -8,7 +8,7 @@ let interests = [
 
 const Interests = () => {
     return (
-        <div>
+        <div className="container">
             <h2>Interests</h2>
             <p>
             {interests.map((interest) => (

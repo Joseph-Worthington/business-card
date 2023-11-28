@@ -23,12 +23,14 @@ var socials = [
 
 const Socials = () => {
     return (
-        <div className="social-links">
-            {socials.map((social) => (
-                <a href={social.link} target="_blank" rel="noreferrer">
-                    <i className={social.icon}></i>
-                </a>
-            ))}
+        <div className="social-links-wrapper">
+            <div className="social-links container">
+                {socials.map((social) => (
+                    <a href={social.link} target="_blank" rel="noreferrer">
+                        <i className={social.icon}></i>
+                    </a>
+                ))}
+            </div>
         </div>
     );
 }
